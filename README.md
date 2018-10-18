@@ -1,1 +1,2 @@
 # nodenew
+setup nodejs ,
