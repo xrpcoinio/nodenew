@@ -9,12 +9,14 @@
     ]
   },
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "create": "webpack",
     "start": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://xrpcoinio.github.io/nodenew",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
@@ -25,5 +27,8 @@
     "webpack": "^4.21.0",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
